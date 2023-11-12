@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(img/linux.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.limite {
+    cursor: crosshair;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    width: 210px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.limite:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.head {
+    position: relative;
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: greenyellow;
+    border-radius: 20px;
+    font-size: 30px;
+    color: #000;
+}
+
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    display: block;
+    margin-top: 90px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#resultado {
+    position: relative;
+    display: inline-block;
+    color: #000;
+    font-size: 30px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
