@@ -5,8 +5,9 @@
 
 body {
     background-image: url(img/linux.jpg);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
+    background-size: 1540px;
 }
 
 .limite {
@@ -19,12 +20,13 @@ body {
     height: 50px;
     border-radius: 15px;
     font-size: larger;
+    box-shadow: 5px 5px 3px;
 }
 
 .limite:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: greenyellow;
     transition: 0.4s;
+    box-shadow: 5px 5px 5px #fff;
 }
 
 .head {
@@ -40,6 +42,9 @@ body {
     border-radius: 20px;
     font-size: 30px;
     color: #000;
+    border: 5px solid #000;
+    box-shadow: 5px 5px 5px #fff;
+
 }
 
 
