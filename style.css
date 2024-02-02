@@ -1,77 +1,98 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-image: url(img/linux.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 1540px;
+  background-image: url(img/linux.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 1540px;
+}
+
+.spain,
+.uk,
+.marruecos {
+  width: 20px;
+}
+
+.china {
+  width: 35px;
+}
+
+.change-language div {
+  margin: auto;
+  background: #fff;
+  width: 90px;
+}
+
+.change-language img {
+  width: 50%;
+}
+
+.change-language {
+  margin-top: 50px;
 }
 
 .limite {
-    cursor: crosshair;
-    position: relative;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    margin-top: 40px;
-    width: 210px;
-    height: 50px;
-    border-radius: 15px;
-    font-size: larger;
-    box-shadow: 5px 5px 3px;
+  cursor: crosshair;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 40px;
+  width: 210px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: larger;
+  box-shadow: 5px 5px 3px;
 }
 
 .limite:hover {
-    background-color: greenyellow;
-    transition: 0.4s;
-    box-shadow: 5px 5px 5px #fff;
+  background-color: greenyellow;
+  transition: 0.4s;
+  box-shadow: 5px 5px 5px #fff;
 }
 
 .head {
-    position: relative;
-    display: block;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    margin-top: 40px;
-    text-align: center;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: greenyellow;
-    border-radius: 20px;
-    font-size: 30px;
-    color: #000;
-    border: 5px solid #000;
-    box-shadow: 5px 5px 5px #fff;
-
+  position: relative;
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 40px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: greenyellow;
+  border-radius: 20px;
+  font-size: 30px;
+  color: #000;
+  border: 5px solid #000;
+  box-shadow: 5px 5px 5px #fff;
 }
-
 
 button {
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 15px;
-    position: relative;
-    display: block;
-    margin-top: 90px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    font-size: 30px;
-    background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 15px;
+  position: relative;
+  display: block;
+  margin-top: 90px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
 #resultado {
-    position: relative;
-    display: inline-block;
-    color: #000;
-    font-size: 30px;
-    margin-top: 50px;
-    background-color: whitesmoke;
-    padding: 5px;
-    border-radius: 10px;
-    margin-left: 50%;
-    transform: translateX(-50%);
+  position: relative;
+  display: inline-block;
+  color: #000;
+  font-size: 30px;
+  margin-top: 50px;
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
