@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(img/linux.jpg);
+  background-image: url(../img/linux.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: 1540px;
@@ -27,6 +27,19 @@ body {
   background-color: greenyellow;
   transition: 0.4s;
   box-shadow: 5px 5px 5px #fff;
+}
+
+i {
+  background: #000;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+footer {
+  width: fit-content;
+  margin: auto;
+  margin-top: 1rem;
 }
 
 .head {
