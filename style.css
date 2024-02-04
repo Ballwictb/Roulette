@@ -10,30 +10,6 @@ body {
   background-size: 1540px;
 }
 
-.spain,
-.uk,
-.marruecos {
-  width: 20px;
-}
-
-.china {
-  width: 35px;
-}
-
-.change-language div {
-  margin: auto;
-  background: #fff;
-  width: 90px;
-}
-
-.change-language img {
-  width: 50%;
-}
-
-.change-language {
-  margin-top: 50px;
-}
-
 .limite {
   cursor: crosshair;
   position: relative;
