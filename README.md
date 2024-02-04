@@ -15,3 +15,12 @@
 
 # Roulette
 A roulette wheel that gives a random number between 1 and the limit number you enter.
+
+
+
+
+![SmartPhone](https://github.com/Ballwictb/Roulette/assets/104717038/896c8111-c48d-46fe-b067-2580760d41ed)
+
+
+![pc](https://github.com/Ballwictb/Roulette/assets/104717038/8c234132-990d-456c-b49d-4951765d03a2)
+
